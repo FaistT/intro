@@ -2,9 +2,11 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    list-style-type: none;
 }
 
 html {
+    color: red;
     background: rgb(25,25,25);
 }
 
