@@ -5,11 +5,22 @@
     list-style-type: none;
 }
 
-html {
-    color: red;
-    background: rgb(25,25,25);
+header {
+    display: flex;
+    background: rgb(10,10,10);
+    justify-content: center;
 }
 
-body {
-    background: rgb(25,25,25);
+h1 {
+    display: inline;
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+img {
+    height: 10vh;
+    width: auto;
 }
