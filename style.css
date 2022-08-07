@@ -9,18 +9,42 @@ header {
     display: flex;
     background: rgb(10,10,10);
     justify-content: center;
+    height: 20vh;
 }
 
 h1 {
     display: inline;
-    width: 50vw;
+    width: 44vw;
     display: flex;
     justify-content: center;
     align-items: center;
     color: white;
+    border: 2px solid white;
+    margin: 1vh 3vw;
 }
 
 img {
     height: 10vh;
     width: auto;
+}
+
+nav {
+    border: 1px solid black;
+    display: flex;
+    height: 8vh;
+}
+
+nav button {
+    flex: 1;
+    border: 2px solid green;
+    background: purple;
+    color: yellow;
+}
+
+nav button:first-child {
+    border-left: none;
+}
+
+nav button:last-child {
+    border-right: none;
 }
