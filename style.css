@@ -5,6 +5,10 @@
     list-style-type: none;
 }
 
+html {
+    background: rgb(30,30,30);
+}
+
 header {
     display: flex;
     background: rgb(10,10,10);
@@ -31,7 +35,8 @@ img {
 nav {
     border: 1px solid black;
     display: flex;
-    height: 8vh;
+    height: 12vh;
+    border-bottom: 15px solid rgb(50,50,50);
 }
 
 nav button {
@@ -47,4 +52,26 @@ nav button:first-child {
 
 nav button:last-child {
     border-right: none;
+}
+
+section {
+    width: 90vw;
+    display: flex;
+    margin: auto;
+    margin-top: 25px;
+    background: white;
+    padding: 15px 25px 10px;
+    height: 40vh;
+}
+
+article {
+    flex: 4;
+}
+
+#imgPlaceholder {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25px;
 }
