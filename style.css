@@ -56,16 +56,22 @@ nav button:last-child {
 
 section {
     width: 90vw;
-    display: flex;
     margin: auto;
     margin-top: 25px;
     background: white;
     padding: 15px 25px 10px;
-    height: 40vh;
+    height: max-content;
+}
+
+#article-section {
+    display: flex;
+    align-content: center;
 }
 
 article {
+    display: flex;
     flex: 4;
+    min-height: 200px;
 }
 
 #imgPlaceholder {
